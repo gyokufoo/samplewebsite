@@ -1,0 +1,27 @@
+@charset "UTF-8"
+
+body{
+	font-family: 'メイリオ',
+	'Hiragino Kaku Gothic Pro',
+	'sans-serif';
+}
+
+body{
+	margin:0;
+}
+
+/* ヘッダー */
+
+.nav{
+	float:right;
+	display: block;
+}
+
+.nav:after{
+	clear:both;
+}
+
+.header .nav .clearfix{
+	list-style: none;
+}
+
